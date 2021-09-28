@@ -15,10 +15,10 @@
  */
 package org.springframework.data.jpa.repository.query;
 
-import javax.persistence.EntityManager;
-import javax.persistence.Query;
-import javax.persistence.Tuple;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.Query;
+import jakarta.persistence.Tuple;
+import jakarta.persistence.TypedQuery;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,7 +32,7 @@ import org.springframework.data.repository.query.ReturnedType;
 import org.springframework.lang.Nullable;
 
 /**
- * Implementation of {@link RepositoryQuery} based on {@link javax.persistence.NamedQuery}s.
+ * Implementation of {@link RepositoryQuery} based on {@link jakarta.persistence.NamedQuery}s.
  *
  * @author Oliver Gierke
  * @author Thomas Darimont
